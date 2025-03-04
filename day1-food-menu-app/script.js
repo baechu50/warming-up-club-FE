@@ -17,17 +17,6 @@ function createMenuItem(data) {
   return item;
 }
 
-function handleClick(e, selectedType) {
-  if (e.target.tagName !== "BUTTON") return;
-  selectedType = e.target.dataset.type;
-
-  document.querySelectorAll(".food-nav button").forEach((btn) => {
-    btn.classList.remove("selected");
-  });
-
-  e.target.classList.add("selected");
-}
-
 function filterMenu(data, selectedType) {
   if (selectedType === "all") return data;
   return data.filter((d) => d.type === selectedType);
@@ -43,6 +32,17 @@ function printMenu(data) {
   menus.forEach((m) => {
     content.appendChild(m);
   });
+}
+
+function handleClick(e, selectedType) {
+  if (e.target.tagName !== "BUTTON") return;
+  selectedType = e.target.dataset.type;
+
+  document.querySelectorAll(".food-nav button").forEach((btn) => {
+    btn.classList.remove("selected");
+  });
+
+  e.target.classList.add("selected");
 }
 
 async function main() {
