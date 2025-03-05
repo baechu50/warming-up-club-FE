@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.score,
+.select {
+  display: flex;
+}
+
+.score div {
+  margin: 15px;
+  text-align: center;
+}
+
+.select button {
+  margin: 0 10px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.select button:hover {
+  background-color: lightslategray;
+}
