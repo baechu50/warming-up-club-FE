@@ -28,6 +28,19 @@ const displayData = (data) => {
   });
 };
 
+const displayLog = (message) => {
+  const title = document.querySelector(".title");
+  const logBox = document.createElement("div");
+
+  logBox.classList.add("log-box");
+  logBox.textContent = message;
+  title.insertAdjacentElement("afterend", logBox);
+
+  setTimeout(() => {
+    logBox.remove();
+  }, 3000);
+};
+
 const addItem = (e) => {
   e.preventDefault();
   const inputName = document.getElementById("input-name");
@@ -44,12 +57,14 @@ const addItem = (e) => {
 
   inputName.value = "";
   inputAuthor.value = "";
+  displayLog("Book record has been added");
 };
 
 const deleteItem = (e) => {
   if (e.target.tagName !== "BUTTON") return;
   localStorage.removeItem(e.target.id);
   e.target.closest(".book-item").remove();
+  displayLog("Book record has been removed");
 };
 
 const submitBtn = document.querySelector("#submit");

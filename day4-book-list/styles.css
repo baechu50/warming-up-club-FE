@@ -47,3 +47,15 @@ form > label {
   background-color: transparent;
   cursor: pointer;
 }
+
+.log-box {
+  color: white;
+  background-color: rgb(113, 113, 113);
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+.hidden {
+  display: none;
+}
