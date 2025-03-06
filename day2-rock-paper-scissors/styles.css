@@ -26,3 +26,11 @@ body {
 .select button:hover {
   background-color: lightslategray;
 }
+
+#result {
+  min-height: 40px;
+}
+
+.hidden {
+  display: none;
+}
