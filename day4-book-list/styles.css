@@ -1,0 +1,49 @@
+body {
+  padding: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+form > input {
+  margin-bottom: 15px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+form > label {
+  font-weight: 600;
+}
+
+#submit {
+  margin-top: 5px;
+  border: none;
+  padding: 10px;
+}
+
+.book-item {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid lightgrey;
+}
+
+.book-item span {
+  min-width: 50px;
+  text-align: center;
+}
+
+.book-item:first-child {
+  font-weight: 600;
+}
+
+.delete-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
