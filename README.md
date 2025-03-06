@@ -125,7 +125,7 @@ scoreBoard = createScoreBoard(); //스코어 보드 초기화
 - 리스트에서 삭제버튼을 누르면 해당 기록이 삭제됨
 - 로컬스토리지에 책 데이터를 저장하여 새로고침해도 데이터가 유지됨
 
-![화면 기록 2025-03-07 오전 3 37 37](https://github.com/user-attachments/assets/54cd70cf-8a6c-4f91-a4e2-6f5c26025911)
+![화면 기록 2025-03-07 오전 4 08 17](https://github.com/user-attachments/assets/09101652-4dff-4a00-ba05-c72d55bbfc66)
 
 <br>
 
