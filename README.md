@@ -6,4 +6,4 @@
 - [day2-rock-paper-scissors](https://github.com/baechu50/warming-up-club-FE/tree/main/day2-rock-paper-scissors)
 - [day3-quiz-app](https://github.com/baechu50/warming-up-club-FE/tree/main/day3-quiz-app)
 - [day4-book-list](https://github.com/baechu50/warming-up-club-FE/tree/main/day4-book-list)
-- [day5-github-finder]()
+- [day5-github-finder](https://github.com/baechu50/warming-up-club-FE/tree/main/day5-github-finder)
