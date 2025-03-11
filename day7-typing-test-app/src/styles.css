@@ -1,0 +1,83 @@
+body {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+section {
+  padding: 20px;
+  border-bottom: 1px solid lightgrey;
+  width: 100%;
+}
+
+.score-section {
+  display: flex;
+  justify-content: center;
+}
+
+.score-box {
+  background-color: lightgrey;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  width: 100px;
+  text-align: center;
+}
+
+.score-box h3 {
+  margin: 0 0 10px 0;
+}
+
+.score-box span {
+  font-size: x-large;
+}
+
+.typing-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.typing-section div {
+  width: 100%;
+  min-height: 50px;
+  padding: 15px;
+  background-color: rgb(235, 235, 235);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.typing-section textarea {
+  width: 100%;
+  min-height: 50px;
+  padding: 15px;
+  border-radius: 5px;
+  border: 2px solid lightgrey;
+}
+
+#retry-btn {
+  border: none;
+  background-color: lightgrey;
+  padding: 15px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.correct {
+  color: green;
+}
+
+.wrong {
+  color: red;
+}

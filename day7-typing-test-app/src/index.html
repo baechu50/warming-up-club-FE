@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typing Test</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Typing Test</h1>
+    <section class="score-section">
+      <div class="score-box">
+        <h3>Errors</h3>
+        <span id="error">0</span>
+      </div>
+      <div class="score-box">
+        <h3>Time</h3>
+        <span id="time">0</span>
+      </div>
+      <div class="score-box">
+        <h3>Accurancy</h3>
+        <span id="accurancy">0</span>
+      </div>
+      <div class="score-box">
+        <h3>CPM</h3>
+        <span id="cpm">0</span>
+      </div>
+      <div class="score-box">
+        <h3>WPM</h3>
+        <span id="wpm">0</span>
+      </div>
+    </section>
+    <section class="typing-section">
+      <div><span id="text">example</span></div>
+      <textarea id="input" placeholder="Start typing here..."></textarea>
+    </section>
+    <button id="retry-btn" class="hidden">Restart</button>
+  </body>
+  <script src="script.js" type="module" defer></script>
+</html>
