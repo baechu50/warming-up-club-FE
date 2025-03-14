@@ -1,6 +1,6 @@
 ## day8-budget-calculator
 
-> 예산 계산기 앱
+> 예산 계산기 앱 : https://baechu50.github.io/warming-up-club-FE/day8-budget-calculator/
 
 - 이름과 가격을 입력하고 제출하면 항목이 생김
 - 각 항목은 삭제하거나 수정가능
@@ -52,6 +52,8 @@ function App() {
   } = useBudget();
 }
 ```
+
+<br>
 
 ### useCallback과 React.memo를 사용한 최적화
 
