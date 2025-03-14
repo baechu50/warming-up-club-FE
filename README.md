@@ -9,3 +9,4 @@
 - [day5-github-finder](https://github.com/baechu50/warming-up-club-FE/tree/main/day5-github-finder)
 - [day6-password-generator](https://github.com/baechu50/warming-up-club-FE/tree/main/day6-password-generator)
 - [day7-typing-test-app](https://github.com/baechu50/warming-up-club-FE/tree/main/day7-typing-test-app)
+- [day8-budget-calculator]()
