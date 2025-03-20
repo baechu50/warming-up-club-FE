@@ -1,6 +1,6 @@
 ## day9-pokemon-app
 
-> 포켓몬 도감
+> 포켓몬 도감 : https://baechu50.github.io/warming-up-club-FE/day9-pokemon-app/
 
 - 포켓몬 리스트: 스크롤을 내리면 자동으로 포켓몬 목록이 추가로 로드됨 (무한 스크롤)
 - 포켓몬 검색: 포켓몬 이름을 입력하면 해당 포켓몬을 검색 가능
